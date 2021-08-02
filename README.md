@@ -73,7 +73,6 @@ It's the starting point to interact with the naivecoin, and every node provides 
 
 From the Swagger UI is possible to access a simple UI to visualize the blockchain and the unconfirmed transactions.
 
-![UI](doc/ui.png)
 
 #### Blockchain
 
