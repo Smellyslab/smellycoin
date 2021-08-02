@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const naivecoin = require('./../lib/naivecoin');
+const naivecoin = require('./../lib/smellycoin');
 
 const argv = require('yargs')
     .usage('Usage: $0 [options]')
