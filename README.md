@@ -1,14 +1,12 @@
-# Naivecoin - a cryptocurrency implementation in less than 1500 lines of code
+# Smellycoin - a cryptocurrency implementation in less than 1500 lines of code
 
-[![Build Status](https://travis-ci.org/conradoqg/naivecoin.svg?branch=master)](https://travis-ci.org/conradoqg/naivecoin) [![Coverage Status](https://coveralls.io/repos/github/conradoqg/naivecoin/badge.svg?branch=master)](https://coveralls.io/github/conradoqg/naivecoin?branch=master)
 
-### Motivation
-Cryptocurrencies and smart-contracts on top of a blockchain aren't the most trivial concepts to understand, things like wallets, addresses, block proof-of-work, transactions and their signatures, make more sense when they are in a broad context. Inspired by [naivechain](https://github.com/lhartikk/naivechain), this project is an attempt to provide as concise and simple an implementation of a cryptocurrency as possible.
+
 
 ### What is cryptocurrency
 [From Wikipedia](https://en.wikipedia.org/wiki/Cryptocurrency) : A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency.
 
-### Key concepts of Naivecoin
+### Key concepts of SmellyCoin
 * Components
     * HTTP Server
     * Node
@@ -283,8 +281,8 @@ An extra responsibility is to get a number of confirmations for a given transact
 $ node bin/naivecoin.js
 
 # Run two nodes
-$ node bin/naivecoin.js -p 3001 --name 1
-$ node bin/naivecoin.js -p 3002 --name 2 --peers http://localhost:3001
+$ node bin/smellycoin.js -p 3001 --name 1
+$ node bin/smellycoin.js -p 3002 --name 2 --peers http://localhost:3001
 
 # Access the swagger API
 http://localhost:3001/api-docs/
@@ -464,7 +462,7 @@ $ curl -X GET --header 'Content-Type: application/json' 'http://localhost:3001/b
 
 ```sh
 # Build the image
-$ docker build . -t naivecoin
+$ docker build . -t smellycoin
 
 # Run naivecoin in a docker
 $ ./dockerExec.sh
@@ -484,8 +482,8 @@ $ docker-compose up
 
 ```sh
 # Command-line options
-$ node bin/naivecoin.js -h
-Usage: bin\naivecoin.js [options]
+$ node bin/smellycoin.js -h
+Usage: bin\smellycoin.js [options]
 
 Options:
   -a, --host       Host address. (localhost by default)
@@ -501,8 +499,8 @@ Options:
 
 ```sh
 # Cloning repository
-$ git clone git@github.com:conradoqg/naivecoin.git
-$ cd naivecoin
+$ git clone https://github.com/Smellyslab/smellycoin/
+$ cd smellycoin
 $ npm install
 
 # Testing
