@@ -19,7 +19,7 @@
 * Addresses creation using a deterministic approach [EdDSA](https://en.wikipedia.org/wiki/EdDSA)
 * Data is persisted to a folder
 
-> Naivechain uses websocket for p2p communication, but it was dropped to simplify the understanding of message exchange. It is relying only on REST communication.
+> Smellycoin uses websocket for p2p communication, but it was dropped to simplify the understanding of message exchange. It is relying only on REST communication.
 
 #### Components communication
 ![Components communication](doc/components.png)
