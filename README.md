@@ -289,6 +289,7 @@ http://localhost:3001/api-docs/
 
 #### Example (wallet, address, transaction and mining)
 ```sh
+``keep in mind that this is an example where the mining reward is 5000000000 the normal mining reward is 0 this prevent the minting of new coins but there is fees you get from mined txs so mining can and will pay off the more txs there are...``
 # Create a wallet using password 't t t t t' (5 words)
 $ curl -X POST --header 'Content-Type: application/json' -d '{ "password": "t t t t t" }' 'http://localhost:3001/operator/wallets'
 {"id":"a2fb4d3f93ea3d4624243c03f507295c0c7cb5b78291a651e5575dcd03dfeeeb","addresses":[]}
