@@ -1,4 +1,4 @@
-# Smellycoin - a cryptocurrency implementation in javascript
+# Smellycoin - a fork of naivecoin
 
 
 
