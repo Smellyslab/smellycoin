@@ -1,4 +1,4 @@
-# Smellycoin - a cryptocurrency implementation in less than 1500 lines of code
+# Smellycoin - a cryptocurrency implementation in javascript
 
 
 
