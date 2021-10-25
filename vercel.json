@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
       {
-          "src": "/bin/smellycoin.js",
+          "src": "bin/smellycoin.js",
           "use": "@vercel/node"
       }
   ],
