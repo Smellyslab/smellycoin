@@ -29,7 +29,7 @@ Not all components in this implementation follow the complete list of requiremen
 #### HTTP Server
 Provides an API to manage the blockchain, wallets, addresses, transaction creation, mining request and peer connectivity.
 
-It's the starting point to interact with the naivecoin, and every node provides a swagger API to make this interaction easier. Available endpoints:
+It's the starting point to interact with the smellycoin, and every node provides a swagger API to make this interaction easier. Available endpoints:
 
 ##### Blockchain
 
