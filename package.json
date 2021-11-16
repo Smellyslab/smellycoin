@@ -34,7 +34,7 @@
     "threads": "^0.12.0",
     "timeago.js": "^3.0.2",
     "yargs": "^10.1.1",
-    "crypto-random-string": "^4.0.0"
+    "crypto-extra": "^1.0.1"
   },
   "engines": {
     "node": ">=6"
