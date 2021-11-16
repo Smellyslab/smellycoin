@@ -33,7 +33,8 @@
     "swagger-ui-express": "^1.0.8",
     "threads": "^0.12.0",
     "timeago.js": "^3.0.2",
-    "yargs": "^10.1.1"
+    "yargs": "^10.1.1",
+    "crypto-random-string": "^4.0.0"
   },
   "engines": {
     "node": ">=6"
