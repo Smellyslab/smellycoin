@@ -166,18 +166,18 @@ A transaction contains a list of inputs and outputs representing a transfer of c
             {
                 "transaction": "9e765ad30c...e908b32f0c", // transaction hash taken from a previous unspent transaction output (64 bytes)
                 "index": "0", // index of the transaction taken from a previous unspent transaction output
-                "amount": 5000000000, // amount of satoshis
+                "amount": 5000000000, // amount of smellycoin
                 "address": "dda3ce5aa5...b409bf3fdc", // from address (64 bytes)
                 "signature": "27d911cac0...6486adbf05" // transaction input hash: sha256 (transaction + index + amount + address) signed with owner address's secret key (128 bytes)
             }
         ],
         "outputs": [ // Transaction outputs
             {
-                "amount": 10000, // amount of satoshis
+                "amount": 10000, // amount of smellycoin
                 "address": "4f8293356d...b53e8c5b25" // to address (64 bytes)
             },
             {
-                "amount": 4999989999, // amount of satoshis
+                "amount": 4999989999, // amount of smellycoin
                 "address": "dda3ce5aa5...b409bf3fdc" // change address (64 bytes)
             }
         ]
@@ -327,7 +327,7 @@ $ curl -X POST --header 'Content-Type: application/json' -d '{ "rewardAddress": 
     "hash": "0311a3a89198ccf888c76337cc190e2db238b67a7db0d5062aac97d14fb679b4"
 }
 
-# Create a transaction that transfer 1000000000 satoshis from address 1 to address 2
+# Create a transaction that transfer 1000000000 smellycoin from address 1 to address 2
 $ curl -X POST --header 'Content-Type: application/json' --header 'password: t t t t t' -d '{ "fromAddress": "e155df3a1bac05f88321b73931b48b54ea4300be9d1225e0b62638f537e5544c", "toAddress": "c3c96504e432e35caa94c30034e70994663988ab80f94e4b526829c99958afa8", "amount": 1000000000, "changeAddress": "e155df3a1bac05f88321b73931b48b54ea4300be9d1225e0b62638f537e5544c" }' 'http://localhost:3001/operator/wallets/a2fb4d3f93ea3d4624243c03f507295c0c7cb5b78291a651e5575dcd03dfeeeb/transactions'
  {
   "id": "c3c1e6fbff949042b065dc9e22d065a54ab826595fd8877d2be8ddb8cbb0e27f",
